@@ -13,3 +13,4 @@ jobs:
       with:
         repository: test-org-javihernandez/private-repo
         path: private-repo
+        token: ${{ secrets.OVAL_PROCESSOR_TOKEN }}
