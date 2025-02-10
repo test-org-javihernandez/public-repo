@@ -1,0 +1,12 @@
+name: my test
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        repository: test-org-javihernandez/private-repo
+        path: private-repo
